@@ -1,1 +1,2 @@
+# Memory Management in C 
 This C program implements a simple custom memory allocator using the sbrk() system call to manage a fixed-size heap (1024 bytes). It provides mymalloc() for allocating memory and myfree() for freeing it. The allocator uses a basic first-fit strategy and supports block splitting (but not merging). The main() function demonstrates usage by allocating and freeing memory blocks.
