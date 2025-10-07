@@ -1,1 +1,0 @@
-This C program implements a basic HTTP client that connects to a specified hostname, sends an HTTP GET request for a given path, and prints the server's response. It uses sockets for TCP connections and handles DNS resolution via getaddrinfo(). The program supports both IPv4 and IPv6 and ensures the connection is closed after the response.
